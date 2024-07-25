@@ -226,7 +226,7 @@ setup(
     include_package_data=True,
     install_requires=[
         "greenlet==3.0.1",
-        "pyee==11.0.1",
+        "pyee>=11.1.0",
         "typing-extensions;python_version<='3.8'",
     ],
     # TODO: Can be removed once we migrate to pypa/build or pypa/installer.
